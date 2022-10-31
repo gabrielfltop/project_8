@@ -1,0 +1,369 @@
+body {
+    background-color: #F9F9F9;
+}
+
+button {
+    text-transform: uppercase;
+    font-family: 'Inter';
+}
+
+.container {
+    padding: 41px 300px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 32px;
+    color: #2F2F2F;
+}
+
+.top-bns {
+    width: 278px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-bns button {
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+}
+
+.bn-search {
+    padding: 11px;
+    border-radius: 50%;
+}
+
+.bn-login {
+    border-radius: 100px;
+    padding: 15px 40px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2F2F2F;
+}
+
+.bn-search-m, .bn-user {
+    display: none;
+    border: 1.2px solid #EAEAEA;
+    border-radius: 50%;
+}
+
+.bn-search-m {
+    padding: 3.5px 5px;
+}
+
+.bn-user {
+    padding: 4px 5.5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 168px;
+}
+
+main h1 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #2F2F2F;
+}
+
+main h2 {
+    text-align: center;
+    font-family: 'Sen';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    color: #2F2F2F;
+    margin: 33px 0 152px;
+}
+
+main button {
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.mid-bns {
+    width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bn-emoji {
+    background: #6610F2;
+    border: none;
+    padding: 15px 40px;
+    font-weight: 600;
+    color: #F9F9F9;
+}
+
+.bn-library {
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+    padding: 13px 40px;
+    font-weight: 500;
+    color: #2F2F2F;
+}
+
+footer {
+    background: #FCFCFC;
+    margin-top: 390px;
+    width: 70%;
+    min-width: 317px;
+    padding: 60px 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comentario {
+    width: 400px;
+}
+
+.comentario h1 {
+    font-family: 'Sen';
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #2F2F2F;
+    opacity: 0.75;
+    border-left: 3px solid #6610F2;
+    padding-left: 12px;
+}
+
+.comentario h2 {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F2F2F;
+    margin-top: 27px;
+}
+
+.group, .memoji {
+    position: absolute;
+}
+
+.group-blue {
+    top: 197px;
+    left: 328px;
+}
+
+.memoji-blue {
+    top: 66px;
+    left: 66.42px;
+}
+
+.group-yellow {
+    top: 197px;
+    right: 360px;
+}
+
+.memoji-yellow {
+    top: 25px;
+    left: 25px;
+}
+
+.group-pink {
+    top: 750px;
+    left: 436px;
+}
+
+.memoji-pink {
+    top: 25px;
+    left: 25px;
+}
+
+.group-purple {
+    top: 844px;
+    left: 963px;
+}
+
+.memoji-purple {
+    top: 25px;
+    left: 25px;
+}
+
+.group-green {
+    top: 664px;
+    right: 290px;
+}
+
+.memoji-green {
+    top: 11px;
+    left: 11px;
+}
+
+@media(max-width: 768px) {
+    .container {
+        padding: 24px 24px 0;
+    }
+    
+    header h1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .top-bns {
+        width: 68px;
+    }
+
+    .bn-search, .bn-login {
+        display: none;
+    }
+
+    .bn-search-m, .bn-user {
+        display: initial;
+    }
+
+    main {
+        margin-top: 231px;
+    }
+
+    main h1 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    main h2 {
+        font-size: 32px;
+        line-height: 38px;
+        margin: 24px 0;
+    }
+
+    main button {
+        border-radius: 6px;
+        font-size: 12px;
+    }
+    
+    .mid-bns {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .bn-emoji {
+        padding: 10px 28.5px;
+        font-weight: 500;
+    }
+    
+    .bn-library {
+        padding: 8px 23.5px;
+    }
+
+    footer {
+        margin-top: 210px;
+        width: 312px;
+        min-width: initial;
+        height: 222px;
+        padding: 24px 16px 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .comentario {
+        width: 262px;
+    }
+    
+    .comentario h1 {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    
+    .comentario h2 {
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 10px;
+    }
+
+    .group-pink {
+        display: none;
+    }
+
+    .group-blue {
+        top: 133px;
+        left: 24px;
+    }
+
+    .bg-blue {
+        width: 125px;
+        height: auto;
+    }
+
+    .memoji-blue {
+        width: 66.29px;
+        height: auto;
+        top: 29.17px;
+        left: 29.35px;
+    }
+
+    .group-yellow {
+        top: 117px;
+        right: 28px;
+    }
+
+    .bg-yellow {
+        width: 99px;
+        height: auto;
+    }
+
+    .memoji-yellow {
+        width: 74.25px;
+        height: auto;
+        top: 12.37px;
+        left: 12.38px;
+    }
+
+    .group-purple {
+        top: 618px;
+        left: 24px;
+    }
+
+    .bg-purple {
+        width: 92px;
+        height: auto;
+    }
+
+    .memoji-purple {
+        width: 69px;
+        height: auto;
+        top: 11.5px;
+        left: 11.5px;
+    }
+
+    .group-green {
+        top: 580px;
+        right: 24px;
+    }
+
+    .bg-green {
+        width: 96px;
+        height: auto;
+    }
+
+    .memoji-green {
+        width: 82.5px;
+        height: auto;
+        top: 6.05px;
+        left: 6px;
+    }
+}
